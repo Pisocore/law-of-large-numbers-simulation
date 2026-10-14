@@ -1,5 +1,7 @@
 **PISOCORE**: *Normality Evaluation Framework*
+
 Technical Reference Series, First Edition
+
 **Document ID**:PSC-STAT-001
 
 This experiment provides a practical demonstration of the <mark>Law of Large Numbers (LLN)</mark> , referenced in the *Theoretical Foundations & Sampling Theory* section of the framework.
@@ -40,12 +42,12 @@ The Law of Large Numbers then explains how the variance behaves as we increase t
 This explains to us that as you increase the number of observations, n, the sample means become less variant. The sample mean ( X ̅ ), converges to the true population mean, μ in probability.
 
 
-## Quick Start
+### Quick Start
 ```bash
 pip install -r requirements.txt
 jupyter notebook notebooks/01_lln_simulation.ipynb
 
 ```
 
-# Reference
+### Reference
 PISOCORE. (2026). Normality Evaluation Framework: A Technical Reference Guide for Distribution Diagnostics. Technical Reference Series, First Edition. Document ID: PSC-STAT-001.

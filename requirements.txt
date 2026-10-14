@@ -3,4 +3,4 @@ matplotlib == 3.9.2
 jupyter
 ipython
 pillow
-scipy
+scipy == 1.14.1
