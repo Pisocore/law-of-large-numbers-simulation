@@ -1,10 +1,15 @@
-**PISOCORE**: *Normality Evaluation Framework*
+**PISOCORE**: Normality Evaluation Framework <br>
+*Technical Reference Series, First Edition*
 
-Technical Reference Series, First Edition
+**Experiment ID**: REP-003-law-large-numbers-simulation <br>
+**Domain**: Monte Carlo Simulation <br>
+**Type**: Convergence <br>
 
-**Document ID**:PSC-STAT-001
+**Objective Statement**<br>
+This experiment uses Monte Carlo simulation of independent observations from an Exponential distribution with rate $\lambda$ to demonstrate the <mark>Law of Large Numbers (LLN)</mark>. It examines how the sample mean approaches the population mean, $\mu=1/\lambda$, as sample size increases, and how the standard error decreases as $\sigma/\sqrt{n}=1/(\lambda\sqrt{n})$.
 
-This experiment provides a practical demonstration of the <mark>Law of Large Numbers (LLN)</mark> , referenced in the *Theoretical Foundations & Sampling Theory* section of the framework.
+**Hypothesis**<br>
+As the sample size $n$ increases, the sample mean will become more concentrated around the population mean $\mu=1/\lambda$. Equivalently, for any fixed $\epsilon>0$, the probability that the sample mean differs from $\mu$ by more than $\epsilon$ will approach zero: $P(|\bar{X}_n-\mu|>\epsilon)\to 0$ as $n\to\infty$.
 
 ## Purpose
 To give researchers and students a hands-on, reproducible illustration of:
