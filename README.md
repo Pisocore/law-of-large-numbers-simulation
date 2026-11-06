@@ -9,15 +9,15 @@
 This experiment uses Monte Carlo simulation of independent observations from an Exponential distribution with rate $\lambda$ to demonstrate the <mark>Law of Large Numbers (LLN)</mark>. It examines how the sample mean approaches the population mean, $\mu=1/\lambda$, as sample size increases, and how the standard error decreases as $\sigma/\sqrt{n}=1/(\lambda\sqrt{n})$.
 
 **Hypothesis**<br>
-As the sample size $n$ increases, the sample mean will become more concentrated around the population mean $\mu=1/\lambda$. Equivalently, for any fixed $\epsilon>0$, the probability that the sample mean differs from $\mu$ by more than $\epsilon$ will approach zero: $P(|\bar{X}_n-\mu|>\epsilon)\to 0$ as $n\to\infty$.
+As the sample size $n$ increases, the sample mean will become more concentrated around the population mean $\mu$. Equivalently, for any fixed $\epsilon>0$, the probability that the sample mean differs from $\mu$ by more than $\epsilon$ will approach zero: $P(|\bar{X}_n-\mu|>\epsilon)\to 0$ as $n\to\infty$.
 
 ## Purpose
 To give researchers and students a hands-on, reproducible illustration of:
 - How the sample mean converges to the population mean
-- How the standard error (σ/√n) shrinks as sample size grows
+- How the standard error $\sigma/\sqrt{n}$ shrinks as sample size,$n$,  grows
 
-This experiment is conducted using simulated data that follows an Exponential Distribution, X~exp(λ) 
-
+This experiment is conducted using simulated data that follows an Exponential Distribution,<br>
+$X \sim \exp(\lambda)$
 ### What is the exponential distribution?
 Exponential distribution is a continuous probability distribution that models the time and space between independent events occuring at a constant avarage rate. In practicality, it is often used to measure tings like lifespan of electronic components or the waiting time between phone calls.
 
