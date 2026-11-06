@@ -14,7 +14,7 @@ As the sample size $n$ increases, the sample mean will become more concentrated 
 ## Purpose
 To give researchers and students a hands-on, reproducible illustration of:
 - How the sample mean converges to the population mean
-- How the standard error $\sigma/\sqrt{n}$ shrinks as sample size,$n$,  grows
+- How the standard error $\sigma/\sqrt{n}$ shrinks as sample size $n$ grows
 
 This experiment is conducted using simulated data that follows an Exponential Distribution,<br>
 $X \sim \exp(\lambda)$
