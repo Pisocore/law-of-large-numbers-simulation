@@ -40,8 +40,8 @@ The Law of Large Numbers then explains how the variance behaves as we increase t
 $P(|\bar{X}_n-\mu|>\epsilon)\to 0$ as $n\to\infty$.<br>
 **Mathematically**:
  
-$\lim_{n \to\infinity}⁡ Var(\bar{X})$ <br>
-$=\lim_{n \to\infinity} \sigma ^2/n$ <br>
+$\lim_{n \to\infty}⁡ Var(\bar{X})$ <br>
+$=\lim_{n \to\infty} \sigma ^2/n$ <br>
 $=0$ <br>
 
 This explains that as you increase the number of observations, $n$ the sample means become less variant. The sample mean ( $\bar{X}$), converges to the true population mean, $\mu$ in probability.
