@@ -16,19 +16,19 @@ To give researchers and students a hands-on, reproducible illustration of:
 - How the sample mean converges to the population mean
 - How the standard error $\sigma/\sqrt{n}$ shrinks as sample size $n$ grows
 
-This experiment is conducted using simulated data that follows an Exponential Distribution,<br>
+This experiment is conducted using simulated data that follows an Exponential Distribution,
 $X \sim \exp(\lambda)$
 ### What is the exponential distribution?
 Exponential distribution is a continuous probability distribution that models the time and space between independent events occuring at a constant avarage rate. In practicality, it is often used to measure tings like lifespan of electronic components or the waiting time between phone calls.
 
 **Mathematical Representation:**
-- The distribution is defined by a single parameter, λ (lambda), which represents the rate (average number of events per unit time) 
-- The parameter can alternatively be represented by, β=1/λ , which represents the scale (average time between events).
+- The distribution is defined by a single parameter lambda, $\lambda$ which represents the rate (average number of events per unit time). 
+- The parameter can alternatively be represented by,  $\beta=1/\lambda$, which represents the scale (average time between events).
 
-            f(x)=λe^(-λx), x>0
+$f(x) = \lambda \exp(-\lambda x), \quad x > 0$
 
-- **Expected value:** E(X)=1/λ
-- **Variance:** V(X)=1/(λ^2)
+- **Expected value:** $E(X)=1/\lambda $
+- **Variance:** $V(X)=1/(\lambda ^2)$
 
 ### Baseline Summary: Sampling Theory
 The Sampling Theory allows us to explain the distribution of the sample mean using two key properties:
