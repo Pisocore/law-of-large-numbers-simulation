@@ -2,7 +2,7 @@
 *Technical Reference Series, First Edition*
 
 **Experiment ID**: REP-003-law-large-numbers-simulation <br>
-**Publication ID:** PSC-STAT-001
+**Publication ID:** PSC-STAT-001 <br>
 **Domain**: Monte Carlo Simulation <br>
 **Type**: Convergence <br>
 
