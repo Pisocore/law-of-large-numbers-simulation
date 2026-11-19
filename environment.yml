@@ -1,0 +1,12 @@
+name: lln-simulation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - matplotlib
+  - scipy
+  - jupyter
+  - ipython
+  - pillow

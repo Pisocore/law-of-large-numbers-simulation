@@ -50,7 +50,8 @@ This explains that as you increase the number of observations, $n$ the sample me
 
 ### Quick Start
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate lln-simulation
 jupyter notebook notebooks/lln_simulation.ipynb
 
 ```
