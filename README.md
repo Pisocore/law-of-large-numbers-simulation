@@ -51,7 +51,7 @@ This explains that as you increase the number of observations, $n$ the sample me
 ### Quick Start
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/01_lln_simulation.ipynb
+jupyter notebook notebooks/lln_simulation.ipynb
 
 ```
 
