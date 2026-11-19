@@ -49,9 +49,19 @@ This explains that as you increase the number of observations, $n$ the sample me
 
 
 ### Quick Start
+
+**Option 1: Using Anaconda/Conda (Recommended)** <br>
+If you use Anaconda or Miniconda, this will create an isolated environment to prevent library conflicts.<br>
 ```bash
 conda env create -f environment.yml
 conda activate lln-simulation
+jupyter notebook notebooks/lln_simulation.ipynb
+
+```
+**Option 2: Standard Python (pip)** <br>
+If you have standard Python installed, install the required packages using pip.
+```bash
+pip install -r requirements.txt
 jupyter notebook notebooks/lln_simulation.ipynb
 
 ```
